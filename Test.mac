@@ -1,0 +1,12 @@
+REM A Test Macro to see the none_hicad_lsp in action
+
+START   59
+
+rem This is a malformated comment
+
+REM When triggering the hover function over the Z3
+REM this should get the info from the builtin file
+REM and display 
+$Z3 := 3
+
+END
